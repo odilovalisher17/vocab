@@ -60,6 +60,7 @@ const Homepage = () => {
     }
   }
 
+  /* eslint-disable */
   useEffect(() => {
     const getData = async () => {
       const data = await getDocs(collection1);
@@ -78,8 +79,7 @@ const Homepage = () => {
 
     getData();
   }, []);
-
-  console.log(currentOrder);
+  /* eslint-disable */
 
   if (words.length !== 0) {
     return (
