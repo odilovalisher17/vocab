@@ -1,0 +1,95 @@
+.word {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.word div {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.word input {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.word-uz {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.word-uz div {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.word-uz input {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.definition {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.definition div {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.definition input {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.word-type {
+  width: 100%;
+  text-align: center;
+}
+
+.types-of-word {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.types-of-word input {
+  width: 50px;
+  padding: 2px 3px;
+  border-radius: 5px;
+}
+
+.word-synonyms {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.word-synonyms div {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.word-synonyms input {
+  width: 90%;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.word-examples {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.word-examples > div {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.word-examples input {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

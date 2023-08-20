@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  color: #fff;
+}
+
+.container {
+  width: 40%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.homepage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.translation {
+  color: rgb(174, 255, 0);
+}
+
+.record {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+.word-definiton {
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  font-size: 20px;
+  background-color: rgba(114, 201, 255, 0.5);
+  border-radius: 10px;
+  border: 1px solid blue;
+  box-shadow: 0px 4px 6px rgba(114, 201, 255, 0.5);
+}
+
+.word-definiton > div {
+  padding-bottom: 10px;
+}
+
+.synonyms {
+  margin: 5px 0;
+  font-size: 20px;
+  padding: 10px 2rem;
+  background-color: rgba(253, 242, 81, 0.5);
+  border-radius: 10px;
+  border: 1px solid rgb(255, 191, 0);
+}
+
+.synonyms span {
+  padding-right: 10px;
+}
+
+.example-sentence {
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  font-size: 20px;
+  background-color: rgba(40, 251, 61, 0.5);
+  border-radius: 10px;
+  border: 1px solid green;
+}
+
+.answer {
+}
+
+.answer-input {
+  width: 100%;
+}
+
+.answer-input input {
+  width: 100%;
+  padding: 0.5rem 2rem;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 98, 0);
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.answer-btn {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.answer-btn button {
+  width: 100%;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  background: rgba(253, 31, 31, 0.5);
+}
+
+.answer-btn button:active {
+  transform: scale(1.05);
+}
+
+button {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+/* ////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+@media screen and (max-width: 998px) {
+  .homepage {
+    min-height: 100vh;
+    align-items: unset;
+    justify-content: unset;
+  }
+
+  .container {
+    width: 98%;
+    padding: 1rem 1rem;
+    margin-top: 5px;
+    padding-bottom: 15rem;
+  }
+
+  .word-definiton {
+    margin: 0.7rem 0;
+    padding: 1rem 1.7rem;
+    font-size: 20px;
+  }
+
+  .synonyms {
+    padding: 10px 1.7rem;
+  }
+
+  .example-sentence {
+    margin: 0.7rem 0;
+    padding: 1rem 1.7rem;
+  }
+
+  .answer-input input {
+    padding: 0.5rem 1.7rem;
+  }
+
+  .answer-btn button {
+    padding: 0.5rem 1.7rem;
+  }
+}
